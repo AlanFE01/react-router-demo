@@ -1,7 +1,7 @@
-import React, { Fragment } from 'react'
-import { Link, Route, Redirect } from 'react-router-dom'
-import Writer from './Writer'
-import NotFound from '../Errors/404'
+import React, { Fragment } from 'react';
+import { Link, Route } from 'react-router-dom';
+import NotFound from '../Errors/404';
+import Writer from './Writer';
 
 export default ({writers, match: {url}}) =>
   <Fragment>
